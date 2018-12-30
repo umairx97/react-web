@@ -1,8 +1,13 @@
-*  {
-    margin: 0; 
-    padding: 0;
-}
 
+* {
+    box-sizing: border-box; 
+  }
+  
+  body {
+    margin: 0; 
+    font-weight: 500;
+    font-family: 'HelveticaNeue';
+  }
 .Back { 
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./bg-1.jpg');
     background-size: cover;
@@ -24,15 +29,11 @@
 .main-nav li a { 
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
-    font-family: sans-serif;
+    padding: 10px 20px;
     font-size: 15px;
     font-weight: 600;
 }
 
-.main-nav li.active a { 
-    border: 1px solid white;
-}
 
 .main-nav li a:hover { 
     border: 1px solid white;
@@ -52,20 +53,18 @@
 }
 
 .hero { 
-    position: absolute;
-    width: 100vw;
+    width: 100%;
     margin-left: 0px;
     margin-top: 0px;
 }
 
 
-h1 { 
+.hero-text { 
   color: white;  
   text-transform: uppercase;
   font-size: 70px;
   text-align: center;
-  margin-top:300px;
-
+  margin-top: 230px;
 }
 
 .button { 
@@ -84,11 +83,29 @@ h1 {
 }
 
 .btn-one { 
-    background-color: darkorange;
+    background-color: rgb(9, 101, 117);
 }
 
 .btn-two:hover { 
-    background-color: darkorange;
+    background-color: rgb(9, 101, 117);
     transition: all 0.2s ease-in;
 }
 
+  
+  section {
+    width: 100%;
+    padding: 0 20px;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: rgb(19, 188, 218);
+    height: 50vh;
+  }
+  .intro {
+    height: 50vh;
+  }
+
+  .content { 
+      color: rgb(36, 39, 39)
+  }
+  
