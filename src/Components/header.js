@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style.css'
 import Logo from '../logo.png';
 
 const Header = () => { 
@@ -25,7 +24,6 @@ const Header = () => {
                                 <a href = "" className = "style-btn btn-two">Read More</a>
                             </div>
                         </div>
-                    
                 </div>
             </header> 
     )
