@@ -92,7 +92,7 @@
 }
 
   
-  section {
+section {
     width: 100%;
     padding: 0 20px;
     display: table;
@@ -100,12 +100,11 @@
     max-width: none;
     background-color: rgb(19, 188, 218);
     height: 90vh;
-  }
-  .intro {
+}
+.intro {
     height: 90vh;
-  }
+}
 
-  .content { 
-      color: black;
-  }
-  
+.content { 
+    color: black;
+}
